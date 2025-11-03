@@ -1,0 +1,265 @@
+/* Estilos adicionais para o plugin RPG Gamification */
+
+.gamification-view {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 100%;
+}
+
+.gamification-header {
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid var(--background-modifier-border);
+    padding-bottom: 15px;
+}
+
+.gamification-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: var(--text-normal);
+}
+
+.gamification-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.stat-item {
+    background: var(--background-secondary);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stat-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.gamification-xp {
+    margin: 20px 0;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 25px;
+    background: var(--background-secondary);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 8px;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4CAF50, #8BC34A);
+    transition: width 0.5s ease-in-out;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.3);
+}
+
+.gamification-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: var(--background-secondary);
+    border-radius: 8px;
+    border-left: 4px solid var(--interactive-accent);
+}
+
+.gamification-section h3 {
+    margin-top: 0;
+    color: var(--text-normal);
+    font-size: 1.2em;
+}
+
+.gamification-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.gamification-section li {
+    padding: 8px;
+    margin: 5px 0;
+    background: var(--background-primary);
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.gamification-section li:hover {
+    background: var(--background-modifier-hover);
+}
+
+.gamification-actions {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.gamification-actions button {
+    flex: 1;
+    min-width: 120px;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    transition: all 0.2s;
+}
+
+.gamification-actions button:hover {
+    background: var(--interactive-accent-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.gamification-actions button:active {
+    transform: translateY(0);
+}
+
+/* Modal styles */
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeIn 0.2s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modal-container > div {
+    background: var(--background-primary);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    animation: slideUp 0.3s;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.modal-container h2 {
+    margin-top: 0;
+    color: var(--text-normal);
+}
+
+.modal-container input,
+.modal-container select {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 1em;
+}
+
+.modal-container input:focus,
+.modal-container select:focus {
+    outline: none;
+    border-color: var(--interactive-accent);
+}
+
+.modal-container button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.modal-container button:first-of-type {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+.modal-container button:first-of-type:hover {
+    background: var(--interactive-accent-hover);
+}
+
+.modal-container button:last-of-type {
+    background: var(--background-secondary);
+    color: var(--text-normal);
+}
+
+.modal-container button:last-of-type:hover {
+    background: var(--background-modifier-hover);
+}
+
+/* Shop styles */
+.shop-buy {
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.shop-buy:hover:not(:disabled) {
+    background: var(--interactive-accent-hover);
+    transform: scale(1.05);
+}
+
+.shop-buy:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Animations */
+@keyframes levelUp {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+.level-up-animation {
+    animation: levelUp 0.5s ease-in-out;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .gamification-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .gamification-actions {
+        flex-direction: column;
+    }
+    
+    .gamification-actions button {
+        width: 100%;
+    }
+}

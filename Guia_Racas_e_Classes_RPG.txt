@@ -1,0 +1,94 @@
+# 🧙‍♂️ Guia de Raças e Classes de RPG
+
+Este documento serve como referência para criação de personagens em sistemas de RPG ou ambientes gamificados, como o Obsidian + Claude AI.
+
+---
+
+## 🧬 RAÇAS
+
+Cada raça define a origem, traços físicos e bônus únicos de atributos.
+
+| Raça | Descrição | Bônus típico |
+|------|------------|--------------|
+| 🧙‍♂️ **Humano** | Versátil, adaptável e equilibrado. | +1 em todos os atributos. |
+| 🧝 **Elfo** | Ágil, inteligente e ligado à natureza. | +2 Destreza, visão no escuro. |
+| 🧔 **Anão** | Forte, resistente e habilidoso com metais. | +2 Constituição, resistência a veneno. |
+| 🧚 **Gnomo** | Criativo e curioso, bom com ilusões e engenhocas. | +2 Inteligência ou Carisma. |
+| 🧛 **Meio-elfo** | Mistura de humano e elfo, equilibrado e carismático. | +1 em dois atributos, visão no escuro. |
+| 🐉 **Draconato** | Descendente de dragões, orgulhoso e poderoso. | +2 Força, sopro elemental. |
+| 🐺 **Orc / Meio-orc** | Selvagem e vigoroso, guerreiro nato. | +2 Força, resistência física. |
+| 🐀 **Halfling (Pequenino)** | Ágil e sortudo, mestre em evitar problemas. | +2 Destreza, vantagem em testes de sorte. |
+| 🐾 **Tiefling** | Sangue demoníaco, domina magias sombrias. | +2 Carisma, resistência a fogo. |
+| 🐺 **Licano / Lobisomem** | Metade humano, metade fera. | +2 Força, regeneração, sentidos aguçados. |
+| 🐍 **Yuan-ti / Naganoide** | Ancestral serpentino, astuto e venenoso. | Resistência a venenos, bônus em magia. |
+
+---
+
+## ⚔️ CLASSES
+
+As classes definem o papel e estilo de combate do personagem.
+
+| Classe | Função | Características principais |
+|--------|---------|-----------------------------|
+| 🗡️ **Guerreiro** | Tanque / combate físico | Alta força e defesa; armas e armaduras pesadas. |
+| 🏹 **Arqueiro / Patrulheiro (Ranger)** | Ataque à distância | Destreza alta, usa arco e armadilhas. |
+| 🔮 **Mago / Feiticeiro** | Controle e dano mágico | Usa mana, magias elementais e arcanas. |
+| 🛡️ **Paladino** | Defesa e cura sagrada | Combina ataque físico e magias de luz. |
+| ⚔️ **Ladino / Assassino / Ladrão** | Furtividade e precisão | Ataques críticos, furtividade e agilidade. |
+| 💉 **Clérigo / Sacerdote** | Suporte e cura | Magias de cura, bênçãos e proteção. |
+| 🐺 **Druida** | Natureza e metamorfose | Controla animais e pode se transformar. |
+| 🎭 **Bardo** | Suporte social e mágico | Inspira aliados, manipula emoções e sorte. |
+| 💀 **Necromante** | Magia sombria | Invoca mortos-vivos e rouba energia vital. |
+| ⚙️ **Artífice / Engenheiro** | Tecnologia e invenção | Usa máquinas, bombas e armas mágicas. |
+| 🔥 **Monge / Lutador Marcial** | Corpo e mente | Combate desarmado, foco em Ki e disciplina. |
+| 🐉 **Caçador de Dragões / Slayer** | Especialista em monstros | Alta força e resistência a criaturas específicas. |
+
+---
+
+## 💡 COMBINAÇÕES POPULARES
+
+| Raça | Classe sugerida | Sinergia |
+|------|------------------|-----------|
+| Elfo | Arqueiro ou Mago | Agilidade e sabedoria natural. |
+| Anão | Guerreiro ou Paladino | Resistência física e fé. |
+| Humano | Qualquer | Adaptabilidade total. |
+| Meio-elfo | Bardo ou Feiticeiro | Carisma e equilíbrio. |
+| Orc | Bárbaro ou Guerreiro | Força bruta e fúria. |
+| Tiefling | Bruxo ou Feiticeiro | Afinidade com magias sombrias. |
+| Gnomo | Artífice ou Ilusionista | Criatividade e intelecto. |
+
+---
+
+## ⚙️ ATRIBUTOS BÁSICOS (para rolagem ou sistema gamificado)
+- **FOR (Força)** → dano físico, carga, atletismo  
+- **DES (Destreza)** → precisão, furtividade, reflexos  
+- **CON (Constituição)** → pontos de vida e resistência  
+- **INT (Inteligência)** → aprendizado, magia e invenção  
+- **SAB (Sabedoria)** → percepção e empatia mágica  
+- **CAR (Carisma)** → liderança, encanto e influência  
+
+Distribuição sugerida: **27 pontos** entre os atributos, mínimo 8, máximo 15.
+
+---
+
+## 🪙 SUGESTÃO DE PROGRESSÃO
+
+| Nível | XP necessário | Benefícios |
+|-------|----------------|-------------|
+| 1 | 0 | Início da jornada |
+| 2 | 100 | +1 atributo à escolha |
+| 3 | 250 | Habilidade especial menor |
+| 4 | 500 | +1 atributo, novo item |
+| 5 | 1000 | Habilidade especial intermediária |
+| 6+ | 2000+ | Evolução personalizada |
+
+---
+
+## 🏁 CONCLUSÃO
+
+Este guia pode ser usado para:
+- Criação de personagens em campanhas de RPG de mesa ou digital  
+- Sistemas de produtividade gamificados (como Obsidian + Claude AI)  
+- Jogos narrativos, projetos de escrita ou IA interativa
+
+Ajuste livremente as raças, classes e atributos conforme seu universo de jogo.

@@ -1,0 +1,38 @@
+{
+  "id": "gamification-rpg",
+  "name": "RPG Gamification",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Transforme suas tarefas em um RPG! Ganhe XP, Gold e evolua seu personagem completando tarefas.",
+  "author": "Sistema Gamificado",
+  "authorUrl": "https://obsidian.md",
+  "isDesktopOnly": false
+}
+```
+
+**📄 Arquivo 2: `main.js`**
+- Use o código do artefato acima (versão pré-compilada)
+
+### **Passo 3: Ativar no Obsidian**
+1. Abra o Obsidian
+2. Settings → Community plugins
+3. **Recarregue** a lista (botão de reload)
+4. Ative "RPG Gamification" ✅
+
+---
+
+## 💡 **NÃO PRECISA MAIS:**
+- ❌ npm install
+- ❌ npm run build
+- ❌ Node.js
+- ❌ Compilar nada
+
+**Só copiar os 2 arquivos e ativar!** 🎉
+
+---
+
+## 📝 Resumo dos Arquivos na Pasta:
+```
+gamification-rpg/
+├── manifest.json  ← Cole o JSON acima
+└── main.js        ← Cole o código do artefato

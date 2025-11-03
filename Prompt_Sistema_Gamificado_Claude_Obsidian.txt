@@ -1,0 +1,87 @@
+# 🎮 Sistema Gamificado de Tarefas - Claude AI + Obsidian
+
+## 🧩 Objetivo
+Crie e gerencie um sistema de **níveis, recompensas e evolução de personagem** dentro do Obsidian, com base nas tarefas cumpridas pelo usuário. Cada tarefa concluída gera experiência (XP), moedas virtuais e desbloqueia novos equipamentos (armaduras, armas e habilidades).
+
+---
+
+## ⚙️ Estrutura do Sistema
+
+### 1. Personagem
+O usuário escolhe um personagem:
+- 🧔 Masculino (Guerreiro, Arqueiro, Mago)
+- 👩 Feminino (Guerreira, Arqueira, Maga)
+
+Cada personagem possui:
+- **Nível (LVL)**: cresce com XP acumulado.
+- **HP (vida)**: pode aumentar com armaduras.
+- **Ataque (ATK)**: aumenta com armas.
+- **Defesa (DEF)**: aumenta com equipamentos.
+- **Moedas (Gold)**: usadas para comprar melhorias.
+
+### 2. Pontuação
+Cada tarefa concluída concede:
+- ✅ Pequena tarefa (5 XP, 2 Gold)
+- ⚔️ Média tarefa (15 XP, 5 Gold)
+- 🏆 Grande tarefa (30 XP, 10 Gold)
+
+A cada **100 XP** o personagem sobe de nível.
+
+### 3. Loja de Itens
+Claude deve gerar um sistema de loja simples dentro do Obsidian (usando tabelas Markdown) com preços e bônus.  
+Exemplo:
+
+| Item | Tipo | Custo (Gold) | Bônus |
+|------|------|---------------|--------|
+| Espada de Aço | Arma | 25 | +5 ATK |
+| Arco Elétrico | Arma | 30 | +7 ATK |
+| Armadura de Couro | Armadura | 20 | +5 DEF |
+| Capa de Energia | Armadura | 40 | +10 DEF |
+| Poção de Vida | Item | 5 | +10 HP |
+
+### 4. Evolução
+Claude deve manter registro do progresso em um arquivo `.md` no Obsidian com:
+- Nível atual  
+- XP total  
+- Itens comprados  
+- Tarefas cumpridas (com datas)
+- Metas diárias, semanais e mensais
+
+### 5. Sistema de Missões
+Exemplo de missões:
+- 🎯 **Diária**: cumprir 3 tarefas simples → +10 XP bônus  
+- 🗓️ **Semanal**: atingir 5 tarefas médias → +50 XP  
+- 🏰 **Mensal**: concluir 3 grandes tarefas → +100 XP e item raro
+
+### 6. Feedback Visual
+Claude deve gerar representações textuais simples (em blocos Markdown) como:
+```
+🧝 Personagem: Arqueira Nível 3
+⚔️ ATK: 15 | 🛡️ DEF: 10 | ❤️ HP: 80 | 💰 Gold: 12
+🗡️ Itens: Arco Elétrico, Armadura de Couro
+📈 Progresso: ▓▓▓▓▓░░░░░░ (55/100 XP)
+```
+---
+
+## 🧠 Prompt para Claude no Obsidian
+
+> "Claude, atue como um assistente de produtividade gamificado.  
+> Registre minhas tarefas diárias, calcule XP e Gold ganhos, atualize meu nível e me mostre meu progresso atual.  
+> Quando eu disser ‘comprar [item]’, desconte o Gold e adicione o item ao inventário.  
+> Mostre um resumo em Markdown do meu personagem e metas diárias/semanais/mensais."
+
+---
+
+## 💡 Sugestão de Organização no Obsidian
+
+- **Pasta:** `/Gamificação`
+- **Arquivos:**  
+  - `personagem.md` → status atual  
+  - `loja.md` → lista de itens  
+  - `tarefas.md` → registro diário  
+  - `missoes.md` → objetivos de curto e longo prazo
+
+---
+
+## 🏁 Meta Final
+Criar um sistema que motive o usuário a concluir metas reais de produtividade enquanto se diverte evoluindo um personagem, de forma simples e totalmente integrada ao Obsidian e Claude AI.
